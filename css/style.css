@@ -296,27 +296,27 @@ h5 {
 }
 
 .img_card_1 {
-    background-image: url('../img/card_1.png') center (center / cover) no-repeat;
+    background: url(../img/card1.png);
 }
 
 .img_card_4 {
-    background-image: url('/img/Карточка 4.png') center (center / cover) no-repeat;
+    background: url(../img/card4.png);
 }
 
 .img_card_2 {
-    background-image: url('/img/Карточка 2.png') center (center / cover) no-repeat;
+    background: url(../img/card2.png);
 }
 
 .img_card_5 {
-    background-image: url('/img/Карточка 5.png') center (center / cover) no-repeat;
+    background: url(../img/card5.png);
 }
 
 .img_card_3 {
-    background-image: url('/img/Карточка\ 3.png') center (center / cover) no-repeat;
+    background: url(../img/card3.png);
 }
 
 .img_card_6 {
-    background-image: url('/img/Карточка\ 6.png') center (center / cover) no-repeat;
+    background: url(../img/card6.png);
 }
 
 .p_card_1_6 {
