@@ -1,0 +1,498 @@
+@media  (max-width: 1400px) {
+    nav {
+        padding: 0 100px;
+    }
+    li>a {
+        padding-right: 25px;
+    }
+}
+@media  (max-width: 1200px) {
+    nav {
+        padding: 0%;
+    }
+    li > a {
+        padding-right: 20px;
+    }
+
+    .container_1 {
+        height: 986px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .container_2 {
+
+        .advantage {
+            width: 453px;
+            height: 180px;
+
+            .conatainer_h4_h5 {
+                width: 306px;
+            }
+        }
+    }
+
+    .card {
+        width: 290px;
+        height: 254px;
+    }
+
+    .p_card {
+        margin-top: 70px;
+    }
+
+    .backround_world {
+        width: 100%;
+    }
+}
+
+@media  (max-width: 991px) {
+    li > a {
+        padding-right: 17px;
+        font-size: 11px;
+    }
+
+    .logo > a > img {
+        width: 100%;
+    }
+
+    .official_partner {
+        font-size: 12px;
+    }
+
+    .phone {
+        font-size: 18px;
+    }
+
+    .btn_order_a_call {
+        width: 100%;
+        margin-top: 21px;
+        height: 40px;
+        padding: 5px 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .h1 {
+        font-size: 30px;
+    }
+
+    .container_2 {
+
+        .h1_in_advantages {
+            font-size: 35px;
+        }
+
+        .advantage {
+            width: 333px;
+            height: 336px;
+            flex-direction: column;
+            
+            .circle {
+                margin: 0 auto 25px auto;
+            }
+        }
+
+    }
+
+    .h1_in_Possibilities {
+        font-size: 30px;
+    }
+
+    .img_card_3 {
+        float: left;
+        margin-left: 23px;
+    }
+    
+    .img_card_6 {
+        float: right;
+        margin-right: 23px;
+    }
+
+    .h1_opportunities_2 {
+        font-size: 30px;
+    }
+
+    .h1_opportunities_3 {
+        font-size: 30px;
+    }
+
+    .flex_box_3 {
+        bottom: -10px;
+    }
+
+    .box_footer_2 {
+        bottom: -16px;
+    }
+}
+
+@media  (max-width: 767px) {
+    .menu {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        background-color: rgba(0, 0, 0, .8);
+        transition: 0.6s all;
+        &_active {
+            left: 0%;
+        }
+        li>a {
+            margin: 10px 0;
+            padding: 0;
+            border: none;
+            font-size: 20px;
+        }
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
+        span {
+            transition: 0.5s all;
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #fff;
+            margin-bottom: 2px;
+        }
+        &_active {
+
+            span {
+                margin-bottom: -2px;
+                &:nth-child(1) {
+                    transform: translateY(3px) rotate(-45deg);
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+
+    .container_1 {
+        height: 1000px;
+    }
+
+    .xs_hidden {
+        display: none;
+    }
+
+    .xs_visiable {
+        margin: 10px 0 5px 0;
+        display: block;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: center;
+        float: none;
+    }
+    
+    .btn_order_a_call {
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+        height: 40px;
+    }
+
+    h1 {
+        line-height: 45px;
+    }
+
+    .advantage {
+        margin: 20px auto;
+    }
+
+    .img_card_3 {
+        float: none;
+        // margin: 0;
+        margin: 0 auto 19px auto;
+        display: block;
+    }
+
+    .img_card_6 {
+        float: none;
+        // margin-right: 0;
+        margin: 0 auto 19px auto;
+        display: block;
+    }
+
+    .backround_2 {
+        height: 458px;
+    }   
+
+    .car {
+        width: 569.25px;
+        height: 360px;
+    }
+
+    .cars_every_day {
+        margin-top: 158px;
+    }
+
+    .backround_img {
+        padding-bottom: 104.5px;
+    }
+
+    .russia_govno {
+        margin: 4px auto 0 auto;
+    }
+
+    .box_footer_2 {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -50px;
+    }
+
+    .flex_box_3 {
+        width: 290px;
+        right: 50%;
+        transform: translateX(50%);
+        bottom: -90px;
+    }
+}
+
+
+@media  (max-width: 575px) {
+    header {
+        height: 32px;
+    }
+    .menu {
+        width: 85%;
+    }
+    
+    .supheader {
+        top: 32px;
+        height: 62px;
+    }
+
+    .official_partner {
+        display: none;
+    }
+
+    .xs_visiable {
+        font-size: 12px;
+        margin-bottom: 1px;
+    }
+
+    .btn_order_a_call {
+        padding: 0px 0 3px 0;
+        width: 110px;
+        height: 22px;
+            font-size: 10px;
+    }
+
+    .container_1 {
+        height: 430px;
+    }
+
+    h1 {
+        margin: 80px 0 28px 0;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 0 10px;
+    }
+
+    .h1 {
+        font-size: 20px;
+        line-height: 23px;
+        padding: 0 10px;
+    }
+
+    .sm_none {
+        display: none;
+    }
+
+    .send_an_application {
+        width: 210px;
+        height: 50px;
+        margin-top: 69px;
+            font-size: 16px;
+    }
+    .container_2 {
+
+        .h1_in_advantages {
+            margin: 16px 0 4px 0;
+            font-size: 16px;
+        }
+
+        .advantage {
+            width: 292px;
+            height: 306px;
+
+            .circle {
+                width: 100px;
+                height: 100px;
+            }
+
+            .conatainer_h4_h5 {
+                width: 100%;
+
+                .h4_advantage {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .advantage_last-child {
+            height: 233px;
+        }
+    }
+
+    .Possibilities {
+        margin-top: 32px;
+    }
+
+    .h1_in_Possibilities {
+        font-size: 16px;
+    }
+
+    .h4_in_Possibilities {
+        font-size: 14px;
+    }
+
+    .p_card {
+        font-size: 18px;
+    }
+
+    .backround_2 {
+        height: auto;
+        padding: 25px 0 34px 0;
+    }
+
+    .h1_opportunities_2 {
+        display: none;
+    }
+
+    .p_suph1_opportunities_2 {
+        display: none;
+    }
+
+    .car {
+        position: relative;
+        display: block;
+        width: 300px;
+        height: 190px;
+        margin: 34px auto 23px auto;
+        right: 0%;
+        transform: translateX(0%);
+    }
+
+    .cars_every_day_sm {
+        font-weight: 300;
+        font-size: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        display: block;
+    }
+
+    .backround_img {
+        display: none;
+    }
+
+    .opportunities_3 {
+        margin: 22px auto 14px auto;
+    }
+
+    .h1_opportunities_3 {
+        font-size: 16px;
+    }
+
+    .h4_opportunities_3_blue {
+        margin-bottom: 3px;
+        font-size: 16px;
+    }
+
+    .h4_opportunities_3_red {
+        font-size: 16px;
+        margin: 30px 0 3px 0;
+    }
+
+    .with_your_car li {
+        font-size: 14px;
+        margin: 0.5px 0;
+    }
+
+    .with_your_car li::before {
+        top: 0%;
+    }
+
+    .Earnings_per_day_are {
+        font-size: 14px;
+        margin: 15px 0 0px 0;
+    }
+
+    .container_6 {
+        margin-top: 14px;
+        height: 360px;
+
+        .backround_world {
+            height: 360px;
+            padding: 24px 0 0 0;
+
+            .cities {
+                margin-bottom: 14px;
+            }
+
+            .h1_world {
+                font-size: 16px;
+            }
+
+            .suph1_world {
+                font-size: 14px;
+                margin-bottom: 170px;
+            }
+        }
+    }
+
+    .flex_box {
+        width: 290px;
+        margin-bottom: 4px;
+
+        a {
+            font-size: 14px;
+        }
+    }
+    
+    .flex_box_2 {
+        display: none;
+    }
+
+    .boxer {
+        display: flex;
+        flex-direction: column;
+
+        .flex_box_2_sm {
+            width: 260px;
+            display: flex;
+            margin: 6px auto;
+
+            a {
+                font-weight: 300;
+                font-size: 11px;
+                line-height: 11px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #999999;
+
+            }
+        }
+    }
+}
