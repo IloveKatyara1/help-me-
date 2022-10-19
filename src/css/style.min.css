@@ -711,11 +711,19 @@ footer {
     height: 40px;
     padding: 5px 0;
   }
+  .btn_order_a_call:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  }
   h1 {
     font-size: 40px;
   }
   .h1 {
     font-size: 30px;
+  }
+  .send_an_application:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   }
   .container_2 .h1_in_advantages {
     font-size: 35px;
@@ -892,6 +900,19 @@ footer {
   }
   .menu {
     width: 85%;
+  }
+  .menu_item {
+    width: 100%;
+    padding: 5px 0;
+  }
+  .menu_item a {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .supheader {
     top: 32px;
